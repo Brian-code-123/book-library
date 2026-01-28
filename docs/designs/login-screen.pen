@@ -1,0 +1,306 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "GCOBL",
+      "x": 0,
+      "y": 0,
+      "name": "Login Background",
+      "width": 1440,
+      "height": 900,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fqJA3",
+          "name": "Login Container",
+          "width": 400,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "YBy0H",
+              "name": "Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RGLMB",
+                  "name": "Logo Container",
+                  "width": 80,
+                  "height": 80,
+                  "fill": "#E42313",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E3YIH",
+                      "name": "bookIcon",
+                      "content": "📚",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WlUiY",
+                  "name": "title",
+                  "fill": "#0D0D0D",
+                  "content": "Book Library",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 24,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "text",
+                  "id": "5LrkC",
+                  "name": "subtitle",
+                  "fill": "#7A7A7A",
+                  "content": "Sign in to your account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r9qTq",
+              "name": "Form",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n5Mmg",
+                  "name": "Email Group",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qiK0s",
+                      "name": "emailLabel",
+                      "fill": "#7A7A7A",
+                      "content": "Email Address",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uPFwQ",
+                      "name": "Email Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kLh2W",
+                          "name": "emailPlaceholder",
+                          "fill": "#B0B0B0",
+                          "content": "name@example.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dx1wz",
+                  "name": "Password Group",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K3rX0",
+                      "name": "passwordLabel",
+                      "fill": "#7A7A7A",
+                      "content": "Password",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8o4qL",
+                      "name": "Password Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uUNMO",
+                          "name": "passwordPlaceholder",
+                          "fill": "#B0B0B0",
+                          "content": "••••••••",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XxttO",
+                          "name": "toggleIcon",
+                          "content": "👁",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k7euy",
+                  "name": "Remember Me",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K4JdG",
+                      "name": "Checkbox",
+                      "width": 16,
+                      "height": 16,
+                      "fill": "#FFFFFF",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "7LzMe",
+                          "name": "checkmark",
+                          "content": "✓",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NXAbQ",
+                      "name": "rememberText",
+                      "fill": "#7A7A7A",
+                      "content": "Remember me",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AVTOe",
+                  "name": "Login Button",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#E42313",
+                  "layout": "vertical",
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rmASd",
+                      "name": "loginButtonText",
+                      "fill": "#FFFFFF",
+                      "content": "Sign In",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ES1Ga",
+                  "name": "Forgot Password",
+                  "width": "fill_container",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SrGwB",
+                      "name": "forgotLink",
+                      "fill": "#E42313",
+                      "content": "Forgot password?",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bwFLT",
+              "name": "Signup Section",
+              "width": "fill_container",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "coEw4",
+                  "name": "signupText",
+                  "fill": "#7A7A7A",
+                  "content": "Don't have an account?",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "iqvma",
+                  "name": "signupLink",
+                  "fill": "#E42313",
+                  "content": "Register here",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
