@@ -1,0 +1,1021 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Fc1Zy",
+      "x": -219,
+      "y": -206,
+      "name": "Dashboard Screen",
+      "width": 1440,
+      "height": 900,
+      "fill": "#F9FAFB",
+      "children": [
+        {
+          "type": "frame",
+          "id": "emyhL",
+          "name": "Sidebar",
+          "width": 260,
+          "height": "fill_container",
+          "fill": "#1F2937",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "lCJOs",
+              "name": "Sidebar Header",
+              "width": "fill_container",
+              "height": 70,
+              "fill": "#111827",
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vaFOr",
+                  "name": "logoBox",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "#10B981",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zhPvk",
+                      "name": "logoText",
+                      "fill": "#FFFFFF",
+                      "content": "📚",
+                      "fontFamily": "system",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "avmmg",
+                  "name": "brandText",
+                  "fill": "#FFFFFF",
+                  "content": "BookLib",
+                  "fontFamily": "system",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QVb8b",
+              "name": "Navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                24,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mXFB3",
+                  "name": "navItem1",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#10B981",
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "i3LZ6",
+                      "name": "navIcon1",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "layout-dashboard",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I3SsX",
+                      "name": "navText1",
+                      "fill": "#FFFFFF",
+                      "content": "Dashboard",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yaAs8",
+                  "name": "navItem2",
+                  "width": "fill_container",
+                  "height": 40,
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hQDop",
+                      "name": "navIcon2",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "book-open",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wlDKE",
+                      "name": "navText2",
+                      "fill": "#D1D5DB",
+                      "content": "My Books",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tGcgc",
+                  "name": "navItem3",
+                  "width": "fill_container",
+                  "height": 40,
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hV6jh",
+                      "name": "navIcon3",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "compass",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SwPTZ",
+                      "name": "navText3",
+                      "fill": "#D1D5DB",
+                      "content": "Browse",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ANaHL",
+                  "name": "navItem4",
+                  "width": "fill_container",
+                  "height": 40,
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "p5S58",
+                      "name": "navIcon4",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "history",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "muIA1",
+                      "name": "navText4",
+                      "fill": "#D1D5DB",
+                      "content": "History",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HqpHQ",
+                  "name": "navItem5",
+                  "width": "fill_container",
+                  "height": 40,
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "SpMVO",
+                      "name": "navIcon5",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "user",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MHTHu",
+                      "name": "navText5",
+                      "fill": "#D1D5DB",
+                      "content": "Profile",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UFXG1",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F9FAFB",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AQPNY",
+              "name": "header",
+              "width": "fill_container",
+              "height": 70,
+              "fill": "#FFFFFF",
+              "gap": 16,
+              "padding": [
+                0,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GP2lN",
+                  "name": "searchBox",
+                  "width": 300,
+                  "height": 40,
+                  "fill": "#F3F4F6",
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "uhvGF",
+                      "name": "searchIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U2nJA",
+                      "name": "searchText",
+                      "fill": "#9CA3AF",
+                      "content": "Search books...",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rRWGI",
+                  "name": "userArea",
+                  "height": 40,
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "bndH4",
+                      "name": "bellIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "bell",
+                      "iconFontFamily": "lucide",
+                      "fill": "#1F2937"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R6C7D",
+                      "name": "avatar",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#EC4899",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rcXLn",
+                          "name": "initials",
+                          "fill": "#FFFFFF",
+                          "content": "JD",
+                          "fontFamily": "system",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "jhe4A",
+                      "name": "chevron",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "#1F2937"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K4k5K",
+              "name": "Scrollable Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ic6L3",
+                  "name": "welcomeSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wqikc",
+                      "name": "welcomeTitle",
+                      "fill": "#1F2937",
+                      "content": "Welcome back, Janet Davis!",
+                      "fontFamily": "system",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k9exO",
+                      "name": "welcomeDesc",
+                      "fill": "#6B7280",
+                      "content": "Here's what's happening with your library today",
+                      "fontFamily": "system",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lbFdT",
+                  "name": "borrowedSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K06EI",
+                      "name": "borrowedLabel",
+                      "fill": "#1F2937",
+                      "content": "Currently Borrowed",
+                      "fontFamily": "system",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CGnnN",
+                      "name": "borrowedBooks",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KxEpc",
+                          "name": "card1",
+                          "width": 200,
+                          "fill": "#FFFFFF",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EBF0G",
+                              "name": "bookCover1",
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": "#9B7E6E"
+                            },
+                            {
+                              "type": "text",
+                              "id": "kAPQa",
+                              "name": "title1",
+                              "fill": "#1F2937",
+                              "content": "The Great Gatsby",
+                              "fontFamily": "system",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "loDlo",
+                              "name": "author1",
+                              "fill": "#6B7280",
+                              "content": "F. Scott Fitzgerald",
+                              "fontFamily": "system",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "julv9",
+                              "name": "dueDate1",
+                              "width": "fill_container",
+                              "height": 24,
+                              "fill": "#FEF3C7",
+                              "gap": 6,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "VScau",
+                                  "name": "dueDateIcon1",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "calendar",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#B45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "McXFi",
+                                  "name": "dueDateText1",
+                                  "fill": "#B45309",
+                                  "content": "Due: Feb 15",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yL8XK",
+                              "name": "returnBtn1",
+                              "width": "fill_container",
+                              "height": 32,
+                              "fill": "#10B981",
+                              "gap": 6,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "nWyob",
+                                  "name": "returnIcon1",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-left",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ArHQW",
+                                  "name": "returnText1",
+                                  "fill": "#FFFFFF",
+                                  "content": "Return",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RaMFo",
+                          "name": "card2",
+                          "width": 200,
+                          "fill": "#FFFFFF",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "elTAm",
+                              "name": "bookCover2",
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": "#C7A869"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ug9ZQ",
+                              "name": "title2",
+                              "fill": "#1F2937",
+                              "content": "To Kill a Mockingbird",
+                              "fontFamily": "system",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RgyhB",
+                              "name": "author2",
+                              "fill": "#6B7280",
+                              "content": "Harper Lee",
+                              "fontFamily": "system",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A0eiv",
+                              "name": "dueDate2",
+                              "width": "fill_container",
+                              "height": 24,
+                              "fill": "#FEF3C7",
+                              "gap": 6,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "G6FOB",
+                                  "name": "dueDateIcon2",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "calendar",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#B45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "onrXq",
+                                  "name": "dueDateText2",
+                                  "fill": "#B45309",
+                                  "content": "Due: Feb 20",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zFl1H",
+                              "name": "returnBtn2",
+                              "width": "fill_container",
+                              "height": 32,
+                              "fill": "#10B981",
+                              "gap": 6,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "dzeaU",
+                                  "name": "returnIcon2",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-left",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "7jHzk",
+                                  "name": "returnText2",
+                                  "fill": "#FFFFFF",
+                                  "content": "Return",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3lZZn",
+                          "name": "card3",
+                          "width": 200,
+                          "fill": "#FFFFFF",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SfgGL",
+                              "name": "bookCover3",
+                              "width": "fill_container",
+                              "height": 180,
+                              "fill": "#7B6A8E"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oCKiH",
+                              "name": "title3",
+                              "fill": "#1F2937",
+                              "content": "1984",
+                              "fontFamily": "system",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qx9tV",
+                              "name": "author3",
+                              "fill": "#6B7280",
+                              "content": "George Orwell",
+                              "fontFamily": "system",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vNg66",
+                              "name": "dueDate3",
+                              "width": "fill_container",
+                              "height": 24,
+                              "fill": "#DBEAFE",
+                              "gap": 6,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "dzZ0o",
+                                  "name": "dueDateIcon3",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "calendar",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#0284C7"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "JNF8s",
+                                  "name": "dueDateText3",
+                                  "fill": "#0284C7",
+                                  "content": "Due: Feb 28",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ylmiS",
+                              "name": "returnBtn3",
+                              "width": "fill_container",
+                              "height": 32,
+                              "fill": "#10B981",
+                              "gap": 6,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "cpwTn",
+                                  "name": "returnIcon3",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-left",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ajVVP",
+                                  "name": "returnText3",
+                                  "fill": "#FFFFFF",
+                                  "content": "Return",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bPJ54",
+                  "name": "recommendedSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3SmK6",
+                      "name": "recommendedLabel",
+                      "fill": "#1F2937",
+                      "content": "Recommended for You",
+                      "fontFamily": "system",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yje2Q",
+                      "name": "recommendedBooks",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "77dQG",
+                          "name": "recCard1",
+                          "width": 320,
+                          "height": 100,
+                          "fill": "#FFFFFF",
+                          "gap": 12,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "LwHfb",
+                              "name": "recCover1",
+                              "width": 80,
+                              "height": 80,
+                              "fill": "#B4A8D0"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rnRbF",
+                              "name": "recInfo1",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "9TpqQ",
+                                  "name": "recTitle1",
+                                  "fill": "#1F2937",
+                                  "content": "Pride and Prejudice",
+                                  "fontFamily": "system",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "FVydT",
+                                  "name": "recAuthor1",
+                                  "fill": "#6B7280",
+                                  "content": "Jane Austen",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "x3R8u",
+                                  "name": "recRating1",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "BKQpK",
+                                      "name": "r1",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "vs4fK",
+                                      "name": "r2",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "FXi9q",
+                                      "name": "r3",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "2OLVy",
+                                      "name": "r4",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "ihXd7",
+                                      "name": "r5",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#D1D5DB"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EG0H3",
+                          "name": "recCard2",
+                          "width": 320,
+                          "height": 100,
+                          "fill": "#FFFFFF",
+                          "gap": 12,
+                          "padding": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "YIbC0",
+                              "name": "recCover2",
+                              "width": 80,
+                              "height": 80,
+                              "fill": "#DBEAFE"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rNbmb",
+                              "name": "recInfo2",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Dopou",
+                                  "name": "recTitle2",
+                                  "fill": "#1F2937",
+                                  "content": "The Hobbit",
+                                  "fontFamily": "system",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "1rfRZ",
+                                  "name": "recAuthor2",
+                                  "fill": "#6B7280",
+                                  "content": "J.R.R. Tolkien",
+                                  "fontFamily": "system",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cp61C",
+                                  "name": "recRating2",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "BI3Mi",
+                                      "name": "s1",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "cXcLJ",
+                                      "name": "s2",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "4xGj5",
+                                      "name": "s3",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "xYFh9",
+                                      "name": "s4",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "mAscN",
+                                      "name": "s5",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "star",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FBBF24"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
