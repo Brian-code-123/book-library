@@ -1,0 +1,806 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "1yltx",
+      "x": 0,
+      "y": 0,
+      "name": "Dashboard Screen",
+      "width": 1440,
+      "height": 900,
+      "fill": "#F9FAFB",
+      "children": [
+        {
+          "type": "frame",
+          "id": "GVWMT",
+          "name": "Sidebar",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "0en92",
+              "name": "Logo",
+              "fill": "#111827",
+              "content": "Book Library",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "0k7WJ",
+              "name": "Spacer",
+              "width": "fill_container",
+              "height": 24
+            },
+            {
+              "type": "frame",
+              "id": "vGz6u",
+              "name": "Nav Dashboard",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "#3B82F6",
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "HtegD",
+                  "name": "dashIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "layout-dashboard",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "xapzJ",
+                  "name": "dashText",
+                  "fill": "#FFFFFF",
+                  "content": "Dashboard",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "leceH",
+              "name": "Nav My Books",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "p40iM",
+                  "name": "myBooksIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "book-open",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "vQ4cy",
+                  "name": "myBooksText",
+                  "fill": "#374151",
+                  "content": "My Books",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yFOyp",
+              "name": "Nav Browse",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Httzl",
+                  "name": "browseIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "compass",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "IxHs2",
+                  "name": "browseText",
+                  "fill": "#374151",
+                  "content": "Browse",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U2MpF",
+              "name": "Nav History",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "c0ViB",
+                  "name": "historyIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "history",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "OPlyI",
+                  "name": "historyText",
+                  "fill": "#374151",
+                  "content": "History",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "40JBr",
+              "name": "Nav Profile",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fjRvx",
+                  "name": "profileIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "user",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "XIJ7h",
+                  "name": "profileText",
+                  "fill": "#374151",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U9vvj",
+          "name": "Main Area",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Yo0Cg",
+              "name": "Header",
+              "width": "fill_container",
+              "height": 72,
+              "fill": "#FFFFFF",
+              "gap": 16,
+              "padding": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C52Cb",
+                  "name": "Search Container",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#F3F4F6",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "TSnXF",
+                      "name": "searchIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YzfgV",
+                      "name": "searchText",
+                      "fill": "#9CA3AF",
+                      "content": "Search for books...",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6rxEQ",
+                  "name": "User Profile",
+                  "width": 180,
+                  "height": 40,
+                  "fill": "#F3F4F6",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "QMBW6",
+                      "name": "Avatar",
+                      "fill": "#3B82F6",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "lYA5w",
+                      "name": "userName",
+                      "fill": "#111827",
+                      "content": "John Doe",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "2AEKW",
+                      "name": "dropdownIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6B7280"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r55ty",
+              "name": "Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tOvrt",
+                  "name": "Welcome Message",
+                  "fill": "#111827",
+                  "content": "Welcome back, John!",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "09BbE",
+                  "name": "Currently Borrowed Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l3k0O",
+                      "name": "borrowedTitle",
+                      "fill": "#111827",
+                      "content": "Currently Borrowed",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MeRhR",
+                      "name": "Borrowed Cards Container",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GH0NJ",
+                          "name": "Book Card 1",
+                          "width": 360,
+                          "height": 200,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "gap": 16,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "dthuC",
+                              "name": "Cover",
+                              "fill": "#60A5FA",
+                              "width": 100,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sIm4y",
+                              "name": "Book Info",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GByM2",
+                                  "name": "title1",
+                                  "fill": "#111827",
+                                  "content": "The Great Gatsby",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ne3WN",
+                                  "name": "author1",
+                                  "fill": "#6B7280",
+                                  "content": "by F. Scott Fitzgerald",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "9aLzg",
+                                  "name": "due1",
+                                  "fill": "#EF4444",
+                                  "content": "Due: Feb 15, 2026",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "0R9z4",
+                                  "name": "Return Button",
+                                  "width": "fill_container",
+                                  "height": 36,
+                                  "fill": "#3B82F6",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "TJYYz",
+                                      "name": "returnText1",
+                                      "fill": "#FFFFFF",
+                                      "content": "Return Book",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0CgXX",
+                          "name": "Book Card 2",
+                          "width": 360,
+                          "height": 200,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "gap": 16,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "6VPAV",
+                              "name": "Cover",
+                              "fill": "#34D399",
+                              "width": 100,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xnErx",
+                              "name": "Book Info",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QpS2b",
+                                  "name": "title2",
+                                  "fill": "#111827",
+                                  "content": "To Kill a Mockingbird",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ue4xH",
+                                  "name": "author2",
+                                  "fill": "#6B7280",
+                                  "content": "by Harper Lee",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "nENwj",
+                                  "name": "due2",
+                                  "fill": "#F59E0B",
+                                  "content": "Due: Feb 20, 2026",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PN0ma",
+                                  "name": "Return Button",
+                                  "width": "fill_container",
+                                  "height": 36,
+                                  "fill": "#3B82F6",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gMejM",
+                                      "name": "returnText2",
+                                      "fill": "#FFFFFF",
+                                      "content": "Return Book",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qmpal",
+                          "name": "Book Card 3",
+                          "width": 360,
+                          "height": 200,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "gap": 16,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "RcGAA",
+                              "name": "Cover",
+                              "fill": "#F472B6",
+                              "width": 100,
+                              "height": "fill_container"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hK7nf",
+                              "name": "Book Info",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "AgVHS",
+                                  "name": "title3",
+                                  "fill": "#111827",
+                                  "content": "1984",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "SCuVq",
+                                  "name": "author3",
+                                  "fill": "#6B7280",
+                                  "content": "by George Orwell",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Xx876",
+                                  "name": "due3",
+                                  "fill": "#10B981",
+                                  "content": "Due: Feb 25, 2026",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "fhWT9",
+                                  "name": "Return Button",
+                                  "width": "fill_container",
+                                  "height": 36,
+                                  "fill": "#3B82F6",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "F2cyI",
+                                      "name": "returnText3",
+                                      "fill": "#FFFFFF",
+                                      "content": "Return Book",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5qHIg",
+                  "name": "Recommended Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lu9Hw",
+                      "name": "recommendedTitle",
+                      "fill": "#111827",
+                      "content": "Recommended for You",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f67Dn",
+                      "name": "Recommended Cards Container",
+                      "width": "fill_container",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pdMCZ",
+                          "name": "Rec Card 1",
+                          "width": 180,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "0Gf1u",
+                              "name": "Cover",
+                              "fill": "#A78BFA",
+                              "width": "fill_container",
+                              "height": 240
+                            },
+                            {
+                              "type": "text",
+                              "id": "oshZl",
+                              "name": "recTitle1",
+                              "fill": "#111827",
+                              "content": "Pride and Prejudice",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mjbEv",
+                              "name": "recAuthor1",
+                              "fill": "#6B7280",
+                              "content": "Jane Austen",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1VCPC",
+                          "name": "Rec Card 2",
+                          "width": 180,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "81NjQ",
+                              "name": "Cover",
+                              "fill": "#FBBF24",
+                              "width": "fill_container",
+                              "height": 240
+                            },
+                            {
+                              "type": "text",
+                              "id": "X9lO2",
+                              "name": "recTitle2",
+                              "fill": "#111827",
+                              "content": "The Catcher in the Rye",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "8E8qR",
+                              "name": "recAuthor2",
+                              "fill": "#6B7280",
+                              "content": "J.D. Salinger",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NxTzc",
+                          "name": "Rec Card 3",
+                          "width": 180,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "xJpk4",
+                              "name": "Cover",
+                              "fill": "#FB923C",
+                              "width": "fill_container",
+                              "height": 240
+                            },
+                            {
+                              "type": "text",
+                              "id": "NDh8D",
+                              "name": "recTitle3",
+                              "fill": "#111827",
+                              "content": "Brave New World",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "1ZufF",
+                              "name": "recAuthor3",
+                              "fill": "#6B7280",
+                              "content": "Aldous Huxley",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5ckkB",
+                          "name": "Rec Card 4",
+                          "width": 180,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "ISCvo",
+                              "name": "Cover",
+                              "fill": "#4ADE80",
+                              "width": "fill_container",
+                              "height": 240
+                            },
+                            {
+                              "type": "text",
+                              "id": "WggFN",
+                              "name": "recTitle4",
+                              "fill": "#111827",
+                              "content": "The Hobbit",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rZy48",
+                              "name": "recAuthor4",
+                              "fill": "#6B7280",
+                              "content": "J.R.R. Tolkien",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

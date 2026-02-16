@@ -3,7 +3,7 @@
   "children": [
     {
       "type": "frame",
-      "id": "1SrnZ",
+      "id": "BrowseScreen",
       "x": 0,
       "y": 0,
       "name": "Book Browse Screen",
@@ -13,7 +13,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "eApbR",
+          "id": "Sidebar",
           "name": "Sidebar",
           "width": 260,
           "height": "fill_container",
@@ -22,7 +22,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "TElym",
+              "id": "SidebarHeader",
               "name": "Sidebar Header",
               "width": "fill_container",
               "height": 70,
@@ -33,31 +33,33 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "evOXb",
+                  "id": "LogoBox",
                   "name": "logoBox",
                   "width": 32,
                   "height": 32,
                   "fill": "#10B981",
+                  "justifyContent": "center",
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "text",
-                      "id": "s9pnC",
+                      "id": "LogoText",
                       "name": "logoText",
                       "fill": "#FFFFFF",
-                      "content": "📚",
-                      "fontFamily": "system",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
+                      "content": "BL",
+                      "fontFamily": "Arial",
+                      "fontSize": 14,
+                      "fontWeight": "700"
                     }
                   ]
                 },
                 {
                   "type": "text",
-                  "id": "z3Qnr",
+                  "id": "BrandText",
                   "name": "brandText",
                   "fill": "#FFFFFF",
                   "content": "BookLib",
-                  "fontFamily": "system",
+                  "fontFamily": "Arial",
                   "fontSize": 16,
                   "fontWeight": "700"
                 }
@@ -65,32 +67,26 @@
             },
             {
               "type": "frame",
-              "id": "CTBRa",
+              "id": "Navigation",
               "name": "Navigation",
               "width": "fill_container",
               "layout": "vertical",
               "gap": 4,
-              "padding": [
-                24,
-                16
-              ],
+              "padding": [24, 16],
               "children": [
                 {
                   "type": "frame",
-                  "id": "9l0gl",
+                  "id": "NavItem1",
                   "name": "navItem1",
                   "width": "fill_container",
                   "height": 40,
                   "gap": 12,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "xWrju",
+                      "id": "NavIcon1",
                       "name": "navIcon1",
                       "width": 20,
                       "height": 20,
@@ -100,11 +96,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "inJpx",
+                      "id": "NavText1",
                       "name": "navText1",
                       "fill": "#D1D5DB",
                       "content": "Dashboard",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "500"
                     }
@@ -112,20 +108,17 @@
                 },
                 {
                   "type": "frame",
-                  "id": "dAJWT",
+                  "id": "NavItem2",
                   "name": "navItem2",
                   "width": "fill_container",
                   "height": 40,
                   "gap": 12,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "Ptqki",
+                      "id": "NavIcon2",
                       "name": "navIcon2",
                       "width": 20,
                       "height": 20,
@@ -135,11 +128,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "OGKjq",
+                      "id": "NavText2",
                       "name": "navText2",
                       "fill": "#D1D5DB",
                       "content": "My Books",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "500"
                     }
@@ -147,21 +140,18 @@
                 },
                 {
                   "type": "frame",
-                  "id": "az1ca",
+                  "id": "NavItem3",
                   "name": "navItem3",
                   "width": "fill_container",
                   "height": 40,
                   "fill": "#10B981",
                   "gap": 12,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "iBWCt",
+                      "id": "NavIcon3",
                       "name": "navIcon3",
                       "width": 20,
                       "height": 20,
@@ -171,11 +161,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "7ngQi",
+                      "id": "NavText3",
                       "name": "navText3",
                       "fill": "#FFFFFF",
                       "content": "Browse",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "500"
                     }
@@ -183,20 +173,17 @@
                 },
                 {
                   "type": "frame",
-                  "id": "GXYqV",
+                  "id": "NavItem4",
                   "name": "navItem4",
                   "width": "fill_container",
                   "height": 40,
                   "gap": 12,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "6oy9y",
+                      "id": "NavIcon4",
                       "name": "navIcon4",
                       "width": 20,
                       "height": 20,
@@ -206,11 +193,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "3qh7Z",
+                      "id": "NavText4",
                       "name": "navText4",
                       "fill": "#D1D5DB",
                       "content": "History",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "500"
                     }
@@ -218,20 +205,17 @@
                 },
                 {
                   "type": "frame",
-                  "id": "VJQkL",
+                  "id": "NavItem5",
                   "name": "navItem5",
                   "width": "fill_container",
                   "height": 40,
                   "gap": 12,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "0elth",
+                      "id": "NavIcon5",
                       "name": "navIcon5",
                       "width": 20,
                       "height": 20,
@@ -241,11 +225,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "pQBfB",
+                      "id": "NavText5",
                       "name": "navText5",
                       "fill": "#D1D5DB",
                       "content": "Profile",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "500"
                     }
@@ -257,7 +241,7 @@
         },
         {
           "type": "frame",
-          "id": "nvMGd",
+          "id": "MainContent",
           "name": "Main Content",
           "width": "fill_container",
           "height": "fill_container",
@@ -266,35 +250,29 @@
           "children": [
             {
               "type": "frame",
-              "id": "2dIR6",
+              "id": "Header",
               "name": "header",
               "width": "fill_container",
               "height": 70,
               "fill": "#FFFFFF",
               "gap": 16,
-              "padding": [
-                0,
-                32
-              ],
+              "padding": [0, 32],
               "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
-                  "id": "PcsTY",
+                  "id": "SearchBox",
                   "name": "searchBox",
                   "width": 320,
                   "height": 40,
                   "fill": "#F3F4F6",
                   "gap": 8,
-                  "padding": [
-                    8,
-                    12
-                  ],
+                  "padding": [8, 12],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "nFWZO",
+                      "id": "SearchIcon",
                       "name": "searchIcon",
                       "width": 18,
                       "height": 18,
@@ -304,11 +282,11 @@
                     },
                     {
                       "type": "text",
-                      "id": "AkagF",
+                      "id": "SearchText",
                       "name": "searchText",
                       "fill": "#9CA3AF",
                       "content": "Search books...",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 14,
                       "fontWeight": "normal"
                     }
@@ -316,14 +294,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "qS1t0",
+                  "id": "Spacer",
                   "name": "spacer",
                   "width": "fill_container",
                   "height": 1
                 },
                 {
                   "type": "frame",
-                  "id": "SyQNC",
+                  "id": "UserArea",
                   "name": "userArea",
                   "height": 40,
                   "gap": 12,
@@ -331,7 +309,7 @@
                   "children": [
                     {
                       "type": "icon_font",
-                      "id": "0QA7d",
+                      "id": "BellIcon",
                       "name": "bellIcon",
                       "width": 20,
                       "height": 20,
@@ -341,19 +319,21 @@
                     },
                     {
                       "type": "frame",
-                      "id": "CJfPt",
+                      "id": "Avatar",
                       "name": "avatar",
                       "width": 32,
                       "height": 32,
                       "fill": "#EC4899",
+                      "justifyContent": "center",
+                      "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
-                          "id": "pOl1x",
+                          "id": "Initials",
                           "name": "initials",
                           "fill": "#FFFFFF",
                           "content": "JD",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 12,
                           "fontWeight": "600"
                         }
@@ -361,7 +341,7 @@
                     },
                     {
                       "type": "icon_font",
-                      "id": "EvSX1",
+                      "id": "Chevron",
                       "name": "chevron",
                       "width": 18,
                       "height": 18,
@@ -375,7 +355,7 @@
             },
             {
               "type": "frame",
-              "id": "pEvgp",
+              "id": "Body",
               "name": "Body",
               "width": "fill_container",
               "height": "fill_container",
@@ -384,7 +364,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "UP1rM",
+                  "id": "FiltersPanel",
                   "name": "Filters",
                   "width": 280,
                   "height": "fill_container",
@@ -395,51 +375,52 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "oslTv",
+                      "id": "FilterTitle",
                       "name": "filterTitle",
                       "fill": "#111827",
                       "content": "Filters",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 16,
                       "fontWeight": "700"
                     },
                     {
                       "type": "frame",
-                      "id": "lIgkP",
+                      "id": "CategoriesSection",
                       "name": "Categories Section",
                       "layout": "vertical",
                       "gap": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "ayCw3",
+                          "id": "CatTitle",
                           "name": "catTitle",
                           "fill": "#111827",
                           "content": "Categories",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "frame",
-                          "id": "gDfOX",
+                          "id": "CatItem1",
                           "name": "catItem1",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "FjeJ0",
+                              "id": "CatCheck1",
                               "name": "catCheck1",
                               "width": 16,
                               "height": 16,
                               "fill": "#10B981",
                               "padding": 2,
+                              "justifyContent": "center",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "icon_font",
-                                  "id": "sNK8z",
+                                  "id": "CheckIcon1",
                                   "name": "catCheckIcon1",
                                   "width": 12,
                                   "height": 12,
@@ -451,11 +432,11 @@
                             },
                             {
                               "type": "text",
-                              "id": "rpbr8",
+                              "id": "CatLabel1",
                               "name": "catLabel1",
                               "fill": "#374151",
                               "content": "Fiction",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -463,26 +444,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "V6XWo",
+                          "id": "CatItem2",
                           "name": "catItem2",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "BXJUY",
+                              "id": "CatCheck2",
                               "name": "catCheck2",
                               "width": 16,
                               "height": 16,
-                              "fill": "#FFFFFF"
+                              "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 1
                             },
                             {
                               "type": "text",
-                              "id": "k4cAl",
+                              "id": "CatLabel2",
                               "name": "catLabel2",
                               "fill": "#374151",
                               "content": "Technology",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -490,26 +473,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "fjS8O",
+                          "id": "CatItem3",
                           "name": "catItem3",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "Vq85c",
+                              "id": "CatCheck3",
                               "name": "catCheck3",
                               "width": 16,
                               "height": 16,
-                              "fill": "#FFFFFF"
+                              "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 1
                             },
                             {
                               "type": "text",
-                              "id": "S9zLO",
+                              "id": "CatLabel3",
                               "name": "catLabel3",
                               "fill": "#374151",
                               "content": "Science",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -517,26 +502,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "uf0qw",
+                          "id": "CatItem4",
                           "name": "catItem4",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "aDgLd",
+                              "id": "CatCheck4",
                               "name": "catCheck4",
                               "width": 16,
                               "height": 16,
-                              "fill": "#FFFFFF"
+                              "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 1
                             },
                             {
                               "type": "text",
-                              "id": "olRBy",
+                              "id": "CatLabel4",
                               "name": "catLabel4",
                               "fill": "#374151",
                               "content": "History",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -544,26 +531,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "eHSiH",
+                          "id": "CatItem5",
                           "name": "catItem5",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "iBSdh",
+                              "id": "CatCheck5",
                               "name": "catCheck5",
                               "width": 16,
                               "height": 16,
-                              "fill": "#FFFFFF"
+                              "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 1
                             },
                             {
                               "type": "text",
-                              "id": "fiHvh",
+                              "id": "CatLabel5",
                               "name": "catLabel5",
                               "fill": "#374151",
                               "content": "Biography",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -573,31 +562,31 @@
                     },
                     {
                       "type": "frame",
-                      "id": "be84i",
+                      "id": "AvailabilitySection",
                       "name": "Availability Section",
                       "layout": "vertical",
                       "gap": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "PKevU",
+                          "id": "AvailTitle",
                           "name": "availTitle",
                           "fill": "#111827",
                           "content": "Availability",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "frame",
-                          "id": "7LrqC",
+                          "id": "AvailItem1",
                           "name": "availItem1",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "ellipse",
-                              "id": "cohJm",
+                              "id": "AvailRadio1",
                               "name": "availRadio1",
                               "fill": "#10B981",
                               "width": 16,
@@ -605,11 +594,11 @@
                             },
                             {
                               "type": "text",
-                              "id": "5uC0l",
+                              "id": "AvailLabel1",
                               "name": "availLabel1",
                               "fill": "#374151",
                               "content": "All",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -617,26 +606,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "pHKYz",
+                          "id": "AvailItem2",
                           "name": "availItem2",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "ellipse",
-                              "id": "EylJt",
+                              "id": "AvailRadio2",
                               "name": "availRadio2",
                               "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 2,
                               "width": 16,
                               "height": 16
                             },
                             {
                               "type": "text",
-                              "id": "1YS5I",
+                              "id": "AvailLabel2",
                               "name": "availLabel2",
                               "fill": "#374151",
                               "content": "Available",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -644,26 +635,28 @@
                         },
                         {
                           "type": "frame",
-                          "id": "Q3NzZ",
+                          "id": "AvailItem3",
                           "name": "availItem3",
                           "gap": 10,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "ellipse",
-                              "id": "44t0n",
+                              "id": "AvailRadio3",
                               "name": "availRadio3",
                               "fill": "#FFFFFF",
+                              "stroke": "#D1D5DB",
+                              "strokeWidth": 2,
                               "width": 16,
                               "height": 16
                             },
                             {
                               "type": "text",
-                              "id": "a48HO",
+                              "id": "AvailLabel3",
                               "name": "availLabel3",
                               "fill": "#374151",
                               "content": "Reserved",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             }
@@ -673,48 +666,52 @@
                     },
                     {
                       "type": "frame",
-                      "id": "FjqyN",
+                      "id": "SortSection",
                       "name": "Sort Section",
                       "layout": "vertical",
                       "gap": 8,
                       "children": [
                         {
                           "type": "text",
-                          "id": "X106h",
+                          "id": "SortTitle",
                           "name": "sortTitle",
                           "fill": "#111827",
                           "content": "Sort by",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "frame",
-                          "id": "la6Tt",
+                          "id": "SortDropdown",
                           "name": "sortDropdown",
                           "width": "fill_container",
                           "height": 40,
                           "fill": "#F3F4F6",
                           "gap": 8,
-                          "padding": [
-                            8,
-                            12
-                          ],
+                          "padding": [8, 12],
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "4TH3v",
+                              "id": "SortValue",
                               "name": "sortValue",
                               "fill": "#374151",
                               "content": "Relevance",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 13,
                               "fontWeight": "normal"
                             },
                             {
+                              "type": "frame",
+                              "id": "SortSpacer",
+                              "name": "sortSpacer",
+                              "width": "fill_container",
+                              "height": 1
+                            },
+                            {
                               "type": "icon_font",
-                              "id": "IBXm9",
+                              "id": "SortChevron",
                               "name": "sortChevron",
                               "width": 16,
                               "height": 16,
@@ -726,11 +723,11 @@
                         },
                         {
                           "type": "text",
-                          "id": "SvfZp",
+                          "id": "SortHint",
                           "name": "sortHint",
                           "fill": "#9CA3AF",
                           "content": "Options: Relevance, Title, Author, Rating",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 11,
                           "fontWeight": "normal"
                         }
@@ -740,7 +737,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "iudnf",
+                  "id": "ResultsArea",
                   "name": "Results",
                   "width": "fill_container",
                   "height": "fill_container",
@@ -749,21 +746,18 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "pnWY5",
+                      "id": "SearchBar",
                       "name": "Search Bar",
                       "width": "fill_container",
                       "height": 48,
                       "fill": "#FFFFFF",
                       "gap": 8,
-                      "padding": [
-                        10,
-                        12
-                      ],
+                      "padding": [10, 12],
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "icon_font",
-                          "id": "kpiJG",
+                          "id": "SearchBarIcon",
                           "name": "searchBarIcon",
                           "width": 18,
                           "height": 18,
@@ -773,11 +767,11 @@
                         },
                         {
                           "type": "text",
-                          "id": "C4INM",
+                          "id": "SearchBarText",
                           "name": "searchBarText",
                           "fill": "#9CA3AF",
                           "content": "Search by title, author, ISBN",
-                          "fontFamily": "system",
+                          "fontFamily": "Arial",
                           "fontSize": 14,
                           "fontWeight": "normal"
                         }
@@ -785,17 +779,17 @@
                     },
                     {
                       "type": "text",
-                      "id": "mJTus",
+                      "id": "ResultsCount",
                       "name": "resultsCount",
                       "fill": "#6B7280",
                       "content": "124 results",
-                      "fontFamily": "system",
+                      "fontFamily": "Arial",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
-                      "id": "BpiMI",
+                      "id": "ResultsList",
                       "name": "Results List",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -803,7 +797,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "fC5e8",
+                          "id": "BookCard1",
                           "name": "Book Card 1",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -812,19 +806,21 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "XsLgw",
+                              "id": "Cover1",
                               "name": "cover1",
                               "width": 80,
                               "height": 110,
                               "fill": "#E5E7EB",
+                              "justifyContent": "center",
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "lTP4c",
+                                  "id": "CoverText1",
                                   "name": "coverText1",
                                   "fill": "#9CA3AF",
                                   "content": "Cover",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 10,
                                   "fontWeight": "normal"
                                 }
@@ -832,7 +828,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "5cOEE",
+                              "id": "Info1",
                               "name": "info1",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -840,34 +836,34 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Kg2BW",
+                                  "id": "Title1",
                                   "name": "title1",
                                   "fill": "#111827",
                                   "content": "The Silent Patient",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 16,
                                   "fontWeight": "600"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "oL0Sk",
+                                  "id": "Author1",
                                   "name": "author1",
                                   "fill": "#6B7280",
                                   "content": "Alex Michaelides",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 13,
                                   "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "xGCjO",
+                                  "id": "RatingRow1",
                                   "name": "ratingRow1",
                                   "gap": 4,
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon_font",
-                                      "id": "TLnzq",
+                                      "id": "Star1_1",
                                       "name": "star1",
                                       "width": 14,
                                       "height": 14,
@@ -877,7 +873,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "CQYCi",
+                                      "id": "Star1_2",
                                       "name": "star2",
                                       "width": 14,
                                       "height": 14,
@@ -887,7 +883,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "Erja2",
+                                      "id": "Star1_3",
                                       "name": "star3",
                                       "width": 14,
                                       "height": 14,
@@ -897,7 +893,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "7LjJG",
+                                      "id": "Star1_4",
                                       "name": "star4",
                                       "width": 14,
                                       "height": 14,
@@ -907,7 +903,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "FwVV2",
+                                      "id": "Star1_5",
                                       "name": "star5",
                                       "width": 14,
                                       "height": 14,
@@ -919,11 +915,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "r8DnH",
+                                  "id": "Availability1",
                                   "name": "availability1",
                                   "fill": "#6B7280",
                                   "content": "Available: 6 copies",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
                                 }
@@ -931,31 +927,28 @@
                             },
                             {
                               "type": "frame",
-                              "id": "6Bgl0",
+                              "id": "Actions1",
                               "name": "actions1",
                               "layout": "vertical",
                               "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "bXknU",
+                                  "id": "BorrowBtn1",
                                   "name": "borrowBtn1",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#10B981",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "pkSBp",
+                                      "id": "BorrowText1",
                                       "name": "borrowText1",
                                       "fill": "#FFFFFF",
                                       "content": "Borrow",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -963,24 +956,21 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "zR4e3",
+                                  "id": "DetailsBtn1",
                                   "name": "detailsBtn1",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#F3F4F6",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "3nNT4",
+                                      "id": "DetailsText1",
                                       "name": "detailsText1",
                                       "fill": "#111827",
                                       "content": "Details",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -992,7 +982,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "DMJhK",
+                          "id": "BookCard2",
                           "name": "Book Card 2",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -1001,19 +991,21 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "2ZuJ2",
+                              "id": "Cover2",
                               "name": "cover2",
                               "width": 80,
                               "height": 110,
                               "fill": "#E5E7EB",
+                              "justifyContent": "center",
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "BlTvb",
+                                  "id": "CoverText2",
                                   "name": "coverText2",
                                   "fill": "#9CA3AF",
                                   "content": "Cover",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 10,
                                   "fontWeight": "normal"
                                 }
@@ -1021,7 +1013,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "ZqPzD",
+                              "id": "Info2",
                               "name": "info2",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -1029,34 +1021,34 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "PGqhN",
+                                  "id": "Title2",
                                   "name": "title2",
                                   "fill": "#111827",
                                   "content": "Atomic Habits",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 16,
                                   "fontWeight": "600"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "O1KYT",
+                                  "id": "Author2",
                                   "name": "author2",
                                   "fill": "#6B7280",
                                   "content": "James Clear",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 13,
                                   "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "UhEAB",
+                                  "id": "RatingRow2",
                                   "name": "ratingRow2",
                                   "gap": 4,
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon_font",
-                                      "id": "URDBH",
+                                      "id": "Star2_1",
                                       "name": "star2_1",
                                       "width": 14,
                                       "height": 14,
@@ -1066,7 +1058,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "VJWBO",
+                                      "id": "Star2_2",
                                       "name": "star2_2",
                                       "width": 14,
                                       "height": 14,
@@ -1076,7 +1068,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "GrgX1",
+                                      "id": "Star2_3",
                                       "name": "star2_3",
                                       "width": 14,
                                       "height": 14,
@@ -1086,7 +1078,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "xmYNy",
+                                      "id": "Star2_4",
                                       "name": "star2_4",
                                       "width": 14,
                                       "height": 14,
@@ -1096,7 +1088,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "b9XiP",
+                                      "id": "Star2_5",
                                       "name": "star2_5",
                                       "width": 14,
                                       "height": 14,
@@ -1108,11 +1100,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "gqfPY",
+                                  "id": "Availability2",
                                   "name": "availability2",
                                   "fill": "#6B7280",
                                   "content": "Reserved: 2 copies",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
                                 }
@@ -1120,31 +1112,28 @@
                             },
                             {
                               "type": "frame",
-                              "id": "IzLoh",
+                              "id": "Actions2",
                               "name": "actions2",
                               "layout": "vertical",
                               "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "hsyYW",
+                                  "id": "ReserveBtn2",
                                   "name": "reserveBtn2",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#10B981",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "ZQ3AV",
+                                      "id": "ReserveText2",
                                       "name": "reserveText2",
                                       "fill": "#FFFFFF",
                                       "content": "Reserve",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -1152,24 +1141,21 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "9zJzx",
+                                  "id": "DetailsBtn2",
                                   "name": "detailsBtn2",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#F3F4F6",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "FvkDz",
+                                      "id": "DetailsText2",
                                       "name": "detailsText2",
                                       "fill": "#111827",
                                       "content": "Details",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -1181,7 +1167,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "kbmkU",
+                          "id": "BookCard3",
                           "name": "Book Card 3",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -1190,19 +1176,21 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "XDQ6v",
+                              "id": "Cover3",
                               "name": "cover3",
                               "width": 80,
                               "height": 110,
                               "fill": "#E5E7EB",
+                              "justifyContent": "center",
+                              "alignItems": "center",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "ygszi",
+                                  "id": "CoverText3",
                                   "name": "coverText3",
                                   "fill": "#9CA3AF",
                                   "content": "Cover",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 10,
                                   "fontWeight": "normal"
                                 }
@@ -1210,7 +1198,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "0HsFO",
+                              "id": "Info3",
                               "name": "info3",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -1218,34 +1206,34 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "1l7sX",
+                                  "id": "Title3",
                                   "name": "title3",
                                   "fill": "#111827",
                                   "content": "A Brief History of Time",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 16,
                                   "fontWeight": "600"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "WSz0Q",
+                                  "id": "Author3",
                                   "name": "author3",
                                   "fill": "#6B7280",
                                   "content": "Stephen Hawking",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 13,
                                   "fontWeight": "normal"
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "uCs9G",
+                                  "id": "RatingRow3",
                                   "name": "ratingRow3",
                                   "gap": 4,
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon_font",
-                                      "id": "6bNrj",
+                                      "id": "Star3_1",
                                       "name": "star3_1",
                                       "width": 14,
                                       "height": 14,
@@ -1255,7 +1243,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "Rf6Mu",
+                                      "id": "Star3_2",
                                       "name": "star3_2",
                                       "width": 14,
                                       "height": 14,
@@ -1265,7 +1253,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "LnPA8",
+                                      "id": "Star3_3",
                                       "name": "star3_3",
                                       "width": 14,
                                       "height": 14,
@@ -1275,7 +1263,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "katuO",
+                                      "id": "Star3_4",
                                       "name": "star3_4",
                                       "width": 14,
                                       "height": 14,
@@ -1285,7 +1273,7 @@
                                     },
                                     {
                                       "type": "icon_font",
-                                      "id": "dqwwP",
+                                      "id": "Star3_5",
                                       "name": "star3_5",
                                       "width": 14,
                                       "height": 14,
@@ -1297,11 +1285,11 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "ycBuH",
+                                  "id": "Availability3",
                                   "name": "availability3",
                                   "fill": "#6B7280",
                                   "content": "Available: 1 copy",
-                                  "fontFamily": "system",
+                                  "fontFamily": "Arial",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
                                 }
@@ -1309,31 +1297,28 @@
                             },
                             {
                               "type": "frame",
-                              "id": "T5oeV",
+                              "id": "Actions3",
                               "name": "actions3",
                               "layout": "vertical",
                               "gap": 8,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "XKpsF",
+                                  "id": "BorrowBtn3",
                                   "name": "borrowBtn3",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#10B981",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "cJtbw",
+                                      "id": "BorrowText3",
                                       "name": "borrowText3",
                                       "fill": "#FFFFFF",
                                       "content": "Borrow",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -1341,24 +1326,21 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "T3LH1",
+                                  "id": "DetailsBtn3",
                                   "name": "detailsBtn3",
                                   "width": 120,
                                   "height": 32,
                                   "fill": "#F3F4F6",
-                                  "padding": [
-                                    6,
-                                    10
-                                  ],
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "JRt8p",
+                                      "id": "DetailsText3",
                                       "name": "detailsText3",
                                       "fill": "#111827",
                                       "content": "Details",
-                                      "fontFamily": "system",
+                                      "fontFamily": "Arial",
                                       "fontSize": 12,
                                       "fontWeight": "600"
                                     }
@@ -1372,31 +1354,28 @@
                     },
                     {
                       "type": "frame",
-                      "id": "lDCuI",
+                      "id": "Pagination",
                       "name": "Pagination",
                       "gap": 8,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "cnSer",
+                          "id": "PrevBtn",
                           "name": "prevBtn",
                           "width": 60,
                           "height": 32,
                           "fill": "#F3F4F6",
-                          "padding": [
-                            6,
-                            10
-                          ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "cFhJ8",
+                              "id": "PrevText",
                               "name": "prevText",
                               "fill": "#374151",
                               "content": "Prev",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -1404,24 +1383,21 @@
                         },
                         {
                           "type": "frame",
-                          "id": "kWJIt",
+                          "id": "Page1",
                           "name": "page1",
                           "width": 32,
                           "height": 32,
                           "fill": "#111827",
-                          "padding": [
-                            6,
-                            10
-                          ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "DJF73",
+                              "id": "Page1Text",
                               "name": "page1Text",
                               "fill": "#FFFFFF",
                               "content": "1",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -1429,24 +1405,21 @@
                         },
                         {
                           "type": "frame",
-                          "id": "tanBs",
+                          "id": "Page2",
                           "name": "page2",
                           "width": 32,
                           "height": 32,
                           "fill": "#F3F4F6",
-                          "padding": [
-                            6,
-                            10
-                          ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "Ur9rV",
+                              "id": "Page2Text",
                               "name": "page2Text",
                               "fill": "#374151",
                               "content": "2",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -1454,24 +1427,21 @@
                         },
                         {
                           "type": "frame",
-                          "id": "WEZfZ",
+                          "id": "Page3",
                           "name": "page3",
                           "width": 32,
                           "height": 32,
                           "fill": "#F3F4F6",
-                          "padding": [
-                            6,
-                            10
-                          ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "Y56zX",
+                              "id": "Page3Text",
                               "name": "page3Text",
                               "fill": "#374151",
                               "content": "3",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -1479,24 +1449,21 @@
                         },
                         {
                           "type": "frame",
-                          "id": "55qrt",
+                          "id": "NextBtn",
                           "name": "nextBtn",
                           "width": 60,
                           "height": 32,
                           "fill": "#F3F4F6",
-                          "padding": [
-                            6,
-                            10
-                          ],
+                          "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "utmL6",
+                              "id": "NextText",
                               "name": "nextText",
                               "fill": "#374151",
                               "content": "Next",
-                              "fontFamily": "system",
+                              "fontFamily": "Arial",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
