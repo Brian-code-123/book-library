@@ -1,6 +1,6 @@
-# Online Book Library System
+# LAB 2 - Online Book Library System
 
-A full-stack web application for managing an online book library, built with modern development tools and the Spec Kitty workflow.
+A full-stack web application for managing an online book library, built with modern development tools and best practices.
 
 ## Technology Stack
 
