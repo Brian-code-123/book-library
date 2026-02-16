@@ -14,11 +14,11 @@ A full-stack web application for managing an online book library, built with mod
 │  Vite              │  Express.js        │  Mongoose              │
 │                    │                    │                        │
 ├─────────────────────────────────────────────────────────────────┤
-│  Documentation                                                   │
-│  ─────────────                                                   │
-│  Markdown                                                        │
-│  MermaidJS                                                       │
-│  Pencil AI                                                       │
+│  Testing                              │  Documentation           │
+│  ─────────                            │  ─────────────           │
+│  Jest (Backend)                       │  Markdown                │
+│  Vitest (Frontend)                    │  MermaidJS               │
+│  Playwright (E2E)                     │  Pencil AI               │
 ├─────────────────────────────────────────────────────────────────┤
 │  AI Development Tools & Workflow                                 │
 │  ─────────────────────────────────                               │
@@ -180,8 +180,13 @@ gantt
     Book Management UI      :c3, after c2, 7d
     User Dashboard          :c4, after c3, 5d
     
+    section Testing
+    Unit Tests              :d1, after b4, 5d
+    Integration Tests       :d2, after d1, 5d
+    E2E Tests               :d3, after c4, 5d
+    
     section Deployment
-    Production Setup        :e1, after c4, 3d
+    Production Setup        :e1, after d3, 3d
     Go Live                 :milestone, after e1, 0d
 ```
 
@@ -225,4 +230,20 @@ npm start
 cd book-library/frontend
 npm install
 npm run dev
+```
+
+## Testing
+
+```bash
+# Backend tests (Jest)
+cd book-library/backend
+npm test
+
+# Frontend tests (Vitest)
+cd book-library/frontend
+npm run test
+
+# E2E tests (Playwright)
+cd book-library/e2e
+npx playwright test
 ```
