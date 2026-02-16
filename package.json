@@ -1,0 +1,26 @@
+{
+  "name": "book-library",
+  "version": "1.0.0",
+  "description": "A full-stack web application for managing an online book library, built with modern development tools and best practices.",
+  "main": "vitest.workspace.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian-code-123/book-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian-code-123/book-library/issues"
+  },
+  "homepage": "https://github.com/Brian-code-123/book-library#readme",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

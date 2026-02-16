@@ -2,7 +2,7 @@
     "servers": {
         "serena": {
             "type": "stdio",
-            "command": "/Users/lochunman/.local/bin/uvx",
+            "command": "uvx",
             "args": [
                 "--from",
                 "git+https://github.com/oraios/serena",
@@ -11,8 +11,7 @@
                 "--context",
                 "ide",
                 "--project",
-               "${workspaceFolder}",
-               
+               "${workspaceFolder}"
             ]
         },
         "deepwiki": {
@@ -23,13 +22,9 @@
             "type": "stdio",
             "command": "npx",
             "args": ["-y", "mongodb-mcp-server@latest", "--readOnly"],
-            // "env": {
-            //     "MDB_MCP_CONNECTION_STRING": "mongodb://localhost:27017/myDatabase"
-            // }
             "env": {
                 "MDB_MCP_CONNECTION_STRING": "mongodb://se-fall-brian:6ipFr0kYiuZv3TKnvnz0nDLNY7WmR2YLWWKaNJmc2SoQlRMwLuwGr8XvZSguZ4Gd0nbmnxeE84P4ACDbRqFf8g==@se-fall-brian.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@se-fall-brian@"
             }
-        },
-
+        }
     }
 }
