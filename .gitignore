@@ -1,4 +1,27 @@
-# Added by Spec Kitty CLI (auto-managed)
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Spec Kitty / AI tool configs (not needed for project)
 .claude/
 .codex/
 .opencode/
@@ -11,4 +34,6 @@
 .roo/
 .amazonq/
 .github/copilot/
-.kittify/.dashboard
+.kittify/
+.claudeignore
+.serena/

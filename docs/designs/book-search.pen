@@ -1,0 +1,1144 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "z8H4i",
+      "x": 0,
+      "y": 0,
+      "name": "Book Details Screen",
+      "width": 1440,
+      "height": 900,
+      "fill": "#F9FAFB",
+      "children": [
+        {
+          "type": "frame",
+          "id": "u31lS",
+          "name": "Sidebar",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "benzF",
+              "name": "Logo",
+              "fill": "#111827",
+              "content": "Book Library",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "m4q6P",
+              "name": "Spacer",
+              "width": "fill_container",
+              "height": 24
+            },
+            {
+              "type": "frame",
+              "id": "VBLxO",
+              "name": "Nav Dashboard",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "y7l4a",
+                  "name": "dashIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "layout-dashboard",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "Lzgvw",
+                  "name": "dashText",
+                  "fill": "#374151",
+                  "content": "Dashboard",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NP6BI",
+              "name": "Nav My Books",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "P6BTk",
+                  "name": "myBooksIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "book-open",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "EEbnH",
+                  "name": "myBooksText",
+                  "fill": "#374151",
+                  "content": "My Books",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uUjhs",
+              "name": "Nav Browse",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "#3B82F6",
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "MFK5B",
+                  "name": "browseIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "compass",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "2RTVC",
+                  "name": "browseText",
+                  "fill": "#FFFFFF",
+                  "content": "Browse",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8FBjH",
+              "name": "Nav History",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "D6ueZ",
+                  "name": "historyIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "history",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "rgVgV",
+                  "name": "historyText",
+                  "fill": "#374151",
+                  "content": "History",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5nGiy",
+              "name": "Nav Profile",
+              "width": "fill_container",
+              "height": 40,
+              "cornerRadius": 8,
+              "gap": 12,
+              "padding": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fi0b5",
+                  "name": "profileIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "user",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7280"
+                },
+                {
+                  "type": "text",
+                  "id": "tz7F7",
+                  "name": "profileText",
+                  "fill": "#374151",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3luDs",
+          "name": "Main Area",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dPFma",
+              "name": "Header",
+              "width": "fill_container",
+              "height": 72,
+              "fill": "#FFFFFF",
+              "gap": 16,
+              "padding": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TqVxf",
+                  "name": "Search Container",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "#F3F4F6",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ITDUq",
+                      "name": "searchIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5zWFz",
+                      "name": "searchText",
+                      "fill": "#9CA3AF",
+                      "content": "Search for books...",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "acY9Z",
+                  "name": "User Profile",
+                  "width": 180,
+                  "height": 40,
+                  "fill": "#F3F4F6",
+                  "cornerRadius": 8,
+                  "gap": 8,
+                  "padding": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "WYhjX",
+                      "name": "Avatar",
+                      "fill": "#3B82F6",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "e60Gu",
+                      "name": "userName",
+                      "fill": "#111827",
+                      "content": "John Doe",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "A4YBq",
+                      "name": "dropdownIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6B7280"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RJrNy",
+              "name": "Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WjXbk",
+                  "name": "Book Details Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "gap": 32,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "clDgh",
+                      "name": "Cover Container",
+                      "width": 280,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 12,
+                          "id": "5yWJC",
+                          "name": "Book Cover",
+                          "fill": "#8B5CF6",
+                          "width": "fill_container",
+                          "height": 420
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cWuBQ",
+                      "name": "Book Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RNYiL",
+                          "name": "Book Title",
+                          "fill": "#111827",
+                          "content": "The Great Gatsby",
+                          "fontFamily": "Inter",
+                          "fontSize": 32,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EuYkQ",
+                          "name": "Book Author",
+                          "fill": "#6B7280",
+                          "content": "by F. Scott Fitzgerald",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IAVjM",
+                          "name": "Metadata Row",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "so281",
+                              "name": "isbnLabel",
+                              "fill": "#374151",
+                              "content": "ISBN:",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aWKvi",
+                              "name": "isbnValue",
+                              "fill": "#6B7280",
+                              "content": "978-0-7432-7356-5",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yP1CA",
+                              "name": "publishLabel",
+                              "fill": "#374151",
+                              "content": "Published:",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lKEXn",
+                              "name": "publishValue",
+                              "fill": "#6B7280",
+                              "content": "April 10, 1925",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "D4Bz6",
+                          "name": "Description",
+                          "fill": "#374151",
+                          "content": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan. A masterpiece of American literature.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LvGzO",
+                          "name": "Tags Container",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "1l6an",
+                              "name": "Tag",
+                              "fill": "#DBEAFE",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZytBL",
+                                  "name": "tag1Text",
+                                  "fill": "#1E40AF",
+                                  "content": "Classic",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PA66D",
+                              "name": "Tag",
+                              "fill": "#FEF3C7",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vtajI",
+                                  "name": "tag2Text",
+                                  "fill": "#92400E",
+                                  "content": "Fiction",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3fKKm",
+                              "name": "Tag",
+                              "fill": "#D1FAE5",
+                              "cornerRadius": 6,
+                              "padding": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "8DzEr",
+                                  "name": "tag3Text",
+                                  "fill": "#065F46",
+                                  "content": "Romance",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y5sO1",
+                          "name": "Rating Container",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "a3g9a",
+                              "name": "Stars",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "vsfw7",
+                                  "name": "star1",
+                                  "width": 20,
+                                  "height": 20,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "PHMSs",
+                                  "name": "star2",
+                                  "width": 20,
+                                  "height": 20,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "4D93c",
+                                  "name": "star3",
+                                  "width": 20,
+                                  "height": 20,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "NcLdn",
+                                  "name": "star4",
+                                  "width": 20,
+                                  "height": 20,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "v71Ol",
+                                  "name": "star5",
+                                  "width": 20,
+                                  "height": 20,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#D1D5DB"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "9N95g",
+                              "name": "ratingText",
+                              "fill": "#111827",
+                              "content": "4.5 out of 5",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YxQpv",
+                              "name": "reviewCount",
+                              "fill": "#6B7280",
+                              "content": "(324 reviews)",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6zOd0",
+                          "name": "Availability Container",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "h8GRc",
+                              "name": "availabilityLabel",
+                              "fill": "#374151",
+                              "content": "Availability:",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9btoe",
+                              "name": "Badge",
+                              "fill": "#D1FAE5",
+                              "cornerRadius": 6,
+                              "gap": 6,
+                              "padding": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Gospo",
+                                  "name": "availabilityIcon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "check",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#10B981"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "b26HF",
+                                  "name": "availabilityText",
+                                  "fill": "#065F46",
+                                  "content": "Available",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ybPqj",
+                          "name": "Borrow Button",
+                          "width": 200,
+                          "height": 48,
+                          "fill": "#3B82F6",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "gzYXE",
+                              "name": "borrowIcon",
+                              "width": 20,
+                              "height": 20,
+                              "iconFontName": "book-plus",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RtcAA",
+                              "name": "borrowText",
+                              "fill": "#FFFFFF",
+                              "content": "Borrow Book",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xp1uC",
+                  "name": "Reviews Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0DRA2",
+                      "name": "Reviews Header",
+                      "width": "fill_container",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gDrcu",
+                          "name": "reviewsTitle",
+                          "fill": "#111827",
+                          "content": "Member Reviews",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PPqVT",
+                          "name": "Write Review Button",
+                          "width": 160,
+                          "height": 40,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "8oznc",
+                              "name": "writeIcon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "pencil",
+                              "iconFontFamily": "lucide",
+                              "fill": "#374151"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tuX2D",
+                              "name": "writeText",
+                              "fill": "#374151",
+                              "content": "Write a Review",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hiy0y",
+                      "name": "Reviews Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HsOnK",
+                          "name": "Review Card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "6i1De",
+                              "name": "Review Header",
+                              "width": "fill_container",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "aL3Vc",
+                                  "name": "User Info",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "WuWaT",
+                                      "name": "Avatar",
+                                      "fill": "#60A5FA",
+                                      "width": 40,
+                                      "height": 40
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Zgh95",
+                                      "name": "userName1",
+                                      "fill": "#111827",
+                                      "content": "Sarah Johnson",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 15,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "69EAq",
+                                  "name": "reviewDate1",
+                                  "fill": "#9CA3AF",
+                                  "content": "Jan 28, 2026",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "1mlX5",
+                              "name": "Stars",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "JlFfH",
+                                  "name": "rs1",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "sfhzE",
+                                  "name": "rs2",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "nriSu",
+                                  "name": "rs3",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "UXna7",
+                                  "name": "rs4",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "r7NcD",
+                                  "name": "rs5",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "g7CXz",
+                              "name": "reviewComment1",
+                              "fill": "#374151",
+                              "content": "An absolute masterpiece! Fitzgerald's prose is exquisite and the story is as relevant today as it was in the 1920s. The themes of wealth, love, and the American Dream are beautifully woven throughout. A must-read for everyone.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LT4Mw",
+                          "name": "Review Card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "QLQ5Z",
+                              "name": "Review Header",
+                              "width": "fill_container",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "2K2lk",
+                                  "name": "User Info",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "QMmwN",
+                                      "name": "Avatar",
+                                      "fill": "#34D399",
+                                      "width": 40,
+                                      "height": 40
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "4bxus",
+                                      "name": "userName2",
+                                      "fill": "#111827",
+                                      "content": "Michael Chen",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 15,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LRm2s",
+                                  "name": "reviewDate2",
+                                  "fill": "#9CA3AF",
+                                  "content": "Jan 15, 2026",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PMGU5",
+                              "name": "Stars",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "T28lD",
+                                  "name": "rs21",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "FAUry",
+                                  "name": "rs22",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "4oBG2",
+                                  "name": "rs23",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "Def8Y",
+                                  "name": "rs24",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "LxgJH",
+                                  "name": "rs25",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#D1D5DB"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "wyrfh",
+                              "name": "reviewComment2",
+                              "fill": "#374151",
+                              "content": "Classic literature at its finest. The symbolism and deeper meanings make this book perfect for discussion groups. While some may find the pacing slow, I believe it adds to the atmospheric quality of the novel.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "spoXK",
+                          "name": "Review Card",
+                          "width": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "eLiqd",
+                              "name": "Review Header",
+                              "width": "fill_container",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "PkbRu",
+                                  "name": "User Info",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "56arz",
+                                      "name": "Avatar",
+                                      "fill": "#F472B6",
+                                      "width": 40,
+                                      "height": 40
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "RGSRZ",
+                                      "name": "userName3",
+                                      "fill": "#111827",
+                                      "content": "Emily Rodriguez",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 15,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "xPbS8",
+                                  "name": "reviewDate3",
+                                  "fill": "#9CA3AF",
+                                  "content": "Dec 20, 2025",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0ypMl",
+                              "name": "Stars",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "aRpsj",
+                                  "name": "rs31",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "GSMiR",
+                                  "name": "rs32",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "zh5AK",
+                                  "name": "rs33",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "762zs",
+                                  "name": "rs34",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "ArVnd",
+                                  "name": "rs35",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "star",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FBBF24"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "259KF",
+                              "name": "reviewComment3",
+                              "fill": "#374151",
+                              "content": "I read this in high school and appreciated it much more reading it again as an adult. The character development is incredible and Gatsby's tragic story stays with you long after finishing the book. Highly recommend revisiting this classic!",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
